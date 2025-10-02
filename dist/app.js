@@ -2,7 +2,9 @@
 var letterKeyCoords = {
   "capital-a": {
     leading: [{ x: 6.25, y: 95 }, { x: 50, y: 50 }, { x: 95, y: 5 }],
-    trailing: [{ x: 92.5, y: 95 }, { x: 92.5, y: 5 }, { x: 92.5, y: 50 }]
+    trailing: [{ x: 92.5, y: 95 }, { x: 92.5, y: 5 }, { x: 92.5, y: 50 }],
+    leadingCircle: { x: 2, y: 98 },
+    trailingCircle: { x: 95, y: 99 }
   },
   "capital-b": {
     leading: [{ x: 5, y: 95 }, { x: 5, y: 50 }, { x: 5, y: 5 }],
@@ -10,7 +12,9 @@ var letterKeyCoords = {
   },
   "capital-c": {
     leading: [{ x: 20, y: 95 }, { x: 20, y: 5 }],
-    trailing: [{ x: 40, y: 95 }, { x: 40, y: 5 }]
+    trailing: [{ x: 40, y: 95 }, { x: 40, y: 5 }],
+    leadingCircle: { x: 62.5, y: 22.5 },
+    trailingCircle: { x: 62.5, y: 77.5 }
   },
   "capital-d": {
     leading: [{ x: 5, y: 95 }, { x: 5, y: 5 }],
@@ -18,123 +22,179 @@ var letterKeyCoords = {
   },
   "capital-e": {
     leading: [{ x: 5, y: 95 }, { x: 5, y: 47.5 }, { x: 5, y: 5 }],
-    trailing: [{ x: 60, y: 95 }, { x: 60, y: 5 }]
+    trailing: [{ x: 60, y: 95 }, { x: 60, y: 5 }],
+    leadingCircle: { x: 62.5, y: 5 },
+    trailingCircle: { x: 62.5, y: 95 }
   },
   "capital-f": {
     leading: [{ x: 5, y: 95 }, { x: 5, y: 47.5 }, { x: 5, y: 5 }],
-    trailing: [{ x: 60, y: 5 }, { x: 5, y: 95 }]
+    trailing: [{ x: 60, y: 5 }, { x: 5, y: 95 }],
+    leadingCircle: { x: 5, y: 99 },
+    trailingCircle: { x: 64, y: 5 }
   },
   "capital-g": {
     leading: [{ x: 20, y: 95 }, { x: 5, y: 55 }, { x: 20, y: 5 }],
-    trailing: [{ x: 40, y: 95 }, { x: 40, y: 5 }]
+    trailing: [{ x: 40, y: 95 }, { x: 40, y: 5 }],
+    leadingCircle: { x: 62.5, y: 22.5 },
+    trailingCircle: { x: 35, y: 55 }
   },
   "capital-h": {
     leading: [{ x: 5, y: 95 }, { x: 5, y: 47.5 }, { x: 5, y: 5 }],
-    trailing: [{ x: 60, y: 95 }, { x: 60, y: 5 }, { x: 60, y: 47.5 }]
+    trailing: [{ x: 60, y: 95 }, { x: 60, y: 5 }, { x: 60, y: 47.5 }],
+    leadingCircle: { x: 5, y: 99 },
+    trailingCircle: { x: 60, y: 1 }
   },
   "capital-i": {
     leading: [{ x: 28.5, y: 95 }, { x: 28.5, y: 5 }],
-    trailing: [{ x: 28.5, y: 95 }, { x: 28.5, y: 5 }]
+    trailing: [{ x: 28.5, y: 95 }, { x: 28.5, y: 5 }],
+    trailingCircle: { x: 26, y: 1 }
   },
   "capital-j": {
     leading: [{ x: 15, y: 95 }, { x: 35, y: 70 }],
-    trailing: [{ x: 45, y: 5 }, { x: 35, y: 95 }]
+    trailing: [{ x: 45, y: 5 }, { x: 35, y: 95 }],
+    leadingCircle: { x: 2, y: 82 },
+    trailingCircle: { x: 45, y: 1 }
   },
   "capital-k": {
     leading: [{ x: 5, y: 95 }, { x: 5, y: 50 }, { x: 5, y: 5 }],
-    trailing: [{ x: 46, y: 95 }, { x: 46, y: 5 }]
+    trailing: [{ x: 46, y: 95 }, { x: 46, y: 5 }],
+    leadingCircle: { x: 5, y: 1 },
+    trailingCircle: { x: 48, y: 97 }
   },
   "capital-l": {
     leading: [{ x: 5, y: 5 }, { x: 5, y: 95 }],
-    trailing: [{ x: 55, y: 95 }]
+    trailing: [{ x: 55, y: 95 }],
+    leadingCircle: { x: 5, y: 1 },
+    trailingCircle: { x: 59, y: 95 }
   },
   "capital-m": {
     leading: [{ x: 5, y: 95 }],
-    trailing: [{ x: 195, y: 95 }, { x: 195, y: 5 }]
+    trailing: [{ x: 195, y: 95 }, { x: 195, y: 5 }],
+    leadingCircle: { x: 2, y: 98 },
+    trailingCircle: { x: 195, y: 99 }
   },
   "capital-n": {
     leading: [{ x: 5, y: 5 }, { x: 5, y: 95 }],
-    trailing: [{ x: 95, y: 95 }, { x: 95, y: 5 }]
+    trailing: [{ x: 95, y: 95 }, { x: 95, y: 5 }],
+    leadingCircle: { x: 5, y: 1 },
+    trailingCircle: { x: 95, y: 99 }
   },
   "capital-o": {
     leading: [{ x: 20, y: 95 }, { x: 20, y: 5 }],
-    trailing: [{ x: 60, y: 95 }, { x: 60, y: 5 }]
+    trailing: [{ x: 60, y: 95 }, { x: 60, y: 5 }],
+    leadingCircle: { x: 20, y: 95 },
+    trailingCircle: { x: 60, y: 95 }
   },
   "capital-p": {
     leading: [{ x: 5, y: 95 }, { x: 5, y: 55 }, { x: 5, y: 5 }],
-    trailing: [{ x: 45, y: 5 }, { x: 45, y: 55 }, { x: 5, y: 5 }]
+    trailing: [{ x: 45, y: 5 }, { x: 45, y: 55 }, { x: 5, y: 5 }, { x: 5, y: 95 }],
+    leadingCircle: { x: 5, y: 99 }
   },
   "capital-q": {
     leading: [{ x: 20, y: 80 }, { x: 20, y: 5 }],
-    trailing: [{ x: 80, y: 95 }, { x: 60, y: 5 }]
+    trailing: [{ x: 80, y: 95 }, { x: 60, y: 5 }],
+    leadingCircle: { x: 57, y: 72 },
+    trailingCircle: { x: 83, y: 98 }
   },
   "capital-r": {
     leading: [{ x: 5, y: 95 }, { x: 5, y: 55 }, { x: 5, y: 5 }],
-    trailing: [{ x: 60, y: 95 }, { x: 45, y: 5 }, { x: 45, y: 55 }]
+    trailing: [{ x: 60, y: 95 }, { x: 45, y: 5 }, { x: 45, y: 55 }],
+    leadingCircle: { x: 5, y: 99 },
+    trailingCircle: { x: 63, y: 98 }
   },
   "capital-s": {
     leading: [{ x: 20, y: 95 }, { x: 20, y: 5 }],
-    trailing: [{ x: 20, y: 95 }, { x: 60, y: 95 }]
+    trailing: [{ x: 20, y: 95 }, { x: 60, y: 95 }],
+    leadingCircle: { x: 2, y: 77 },
+    trailingCircle: { x: 78, y: 23 }
   },
   "capital-t": {
     leading: [{ x: 5, y: 5 }, { x: 50, y: 95 }],
-    trailing: [{ x: 95, y: 5 }, { x: 50, y: 95 }]
+    trailing: [{ x: 95, y: 5 }, { x: 50, y: 95 }],
+    leadingCircle: { x: 1, y: 5 },
+    trailingCircle: { x: 99, y: 5 }
   },
   "capital-u": {
     leading: [{ x: 5, y: 5 }, { x: 20, y: 95 }],
-    trailing: [{ x: 75, y: 5 }, { x: 60, y: 95 }]
+    trailing: [{ x: 75, y: 5 }, { x: 60, y: 95 }],
+    leadingCircle: { x: 5, y: 1 },
+    trailingCircle: { x: 75, y: 1 }
   },
   "capital-v": {
     leading: [{ x: 5, y: 5 }, { x: 5, y: 95 }],
-    trailing: [{ x: 95, y: 5 }, { x: 5, y: 5 }]
+    trailing: [{ x: 95, y: 5 }, { x: 5, y: 5 }],
+    leadingCircle: { x: 5, y: 1 },
+    trailingCircle: { x: 98, y: 2 }
   },
   "capital-w": {
     leading: [{ x: 5, y: 5 }],
-    trailing: [{ x: 195, y: 5 }, { x: 95, y: 95 }]
+    trailing: [{ x: 195, y: 5 }, { x: 95, y: 95 }],
+    leadingCircle: { x: 5, y: 1 },
+    trailingCircle: { x: 198, y: 2 }
   },
   "capital-x": {
     leading: [{ x: 5, y: 95 }, { x: 5, y: 5 }],
-    trailing: [{ x: 95, y: 95 }, { x: 95, y: 5 }]
+    trailing: [{ x: 95, y: 95 }, { x: 95, y: 5 }],
+    leadingCircle: { x: 2, y: 2 },
+    trailingCircle: { x: 98, y: 2 }
   },
   "capital-y": {
     leading: [{ x: 5, y: 5 }, { x: 50, y: 95 }],
-    trailing: [{ x: 95, y: 5 }, { x: 50, y: 95 }]
+    trailing: [{ x: 95, y: 5 }, { x: 50, y: 95 }],
+    leadingCircle: { x: 2, y: 2 },
+    trailingCircle: { x: 98, y: 2 }
   },
   "capital-z": {
     leading: [{ x: 5, y: 5 }, { x: 5, y: 95 }],
-    trailing: [{ x: 95, y: 95 }, { x: 95, y: 5 }]
+    trailing: [{ x: 95, y: 95 }, { x: 95, y: 5 }],
+    leadingCircle: { x: 2, y: 5 },
+    trailingCircle: { x: 98, y: 95 }
   },
   "a": {
     leading: [{ x: 20, y: 95 }, { x: 20, y: 45 }],
-    trailing: [{ x: 55, y: 95 }, { x: 55, y: 45 }]
+    trailing: [{ x: 55, y: 95 }, { x: 55, y: 45 }],
+    trailingCircle: { x: 55, y: 99 }
   },
   "b": {
     leading: [{ x: 5, y: 5 }, { x: 5, y: 95 }, { x: 5, y: 45 }],
-    trailing: [{ x: 40, y: 95 }, { x: 55, y: 80 }]
+    trailing: [{ x: 40, y: 95 }, { x: 55, y: 80 }],
+    leadingCircle: { x: 5, y: 1 },
+    trailingCircle: { x: 5, y: 99 }
   },
   "c": {
     leading: [{ x: 15, y: 95 }, { x: 15, y: 45 }],
-    trailing: [{ x: 45, y: 95 }, { x: 45, y: 45 }]
+    trailing: [{ x: 45, y: 95 }, { x: 45, y: 45 }],
+    leadingCircle: { x: 58, y: 58 },
+    trailingCircle: { x: 58, y: 82 }
   },
   "d": {
     leading: [{ x: 20, y: 95 }, { x: 20, y: 45 }],
-    trailing: [{ x: 55, y: 5 }, { x: 55, y: 95 }, { x: 55, y: 45 }]
+    trailing: [{ x: 55, y: 5 }, { x: 55, y: 95 }, { x: 55, y: 45 }],
+    leadingCircle: { x: 55, y: 99 },
+    trailingCircle: { x: 55, y: 1 }
   },
   "e": {
     leading: [{ x: 20, y: 95 }, { x: 15, y: 45 }],
-    trailing: [{ x: 55, y: 95 }, { x: 45, y: 45 }]
+    trailing: [{ x: 55, y: 95 }, { x: 45, y: 45 }],
+    trailingCircle: { x: 58, y: 95 }
   },
   "f": {
     leading: [{ x: 5, y: 95 }, { x: 5, y: 45 }, { x: 15, y: 10 }],
-    trailing: [{ x: 25, y: 45 }, { x: 5, y: 95 }, { x: 25, y: 10 }]
+    trailing: [{ x: 25, y: 45 }, { x: 5, y: 95 }, { x: 25, y: 10 }],
+    leadingCircle: { x: 5, y: 99 },
+    trailingCircle: { x: 38, y: 18 }
   },
   "g": {
     leading: [{ x: 15, y: 95 }, { x: 15, y: 45 }],
-    trailing: [{ x: 55, y: 45 }, { x: 45, y: 95 }]
+    trailing: [{ x: 55, y: 45 }, { x: 45, y: 95 }],
+    leadingCircle: { x: 2, y: 107 },
+    trailingCircle: { x: 55, y: 41 }
   },
   "h": {
     leading: [{ x: 5, y: 95 }, { x: 5, y: 45 }, { x: 5, y: 5 }],
-    trailing: [{ x: 55, y: 60 }, { x: 55, y: 95 }, { x: 40, y: 45 }]
+    trailing: [{ x: 55, y: 60 }, { x: 55, y: 95 }, { x: 40, y: 45 }],
+    leadingCircle: { x: 5, y: 1 },
+    trailingCircle: { x: 55, y: 99 }
   },
   "i": {
     leading: [{ x: 10, y: 95 }, { x: 10, y: 45 }],
@@ -142,71 +202,104 @@ var letterKeyCoords = {
   },
   "j": {
     leading: [{ x: 35, y: 45 }, { x: 35, y: 95 }],
-    trailing: [{ x: 35, y: 45 }, { x: 35, y: 95 }]
+    trailing: [{ x: 35, y: 45 }, { x: 35, y: 95 }],
+    leadingCircle: { x: 2, y: 107 }
   },
   "k": {
     leading: [{ x: 5, y: 95 }, { x: 5, y: 65 }, { x: 5, y: 5 }],
-    trailing: [{ x: 50, y: 95 }, { x: 45, y: 25 }]
+    trailing: [{ x: 50, y: 95 }, { x: 45, y: 25 }],
+    leadingCircle: { x: 5, y: 99 },
+    trailingCircle: { x: 48, y: 22 }
   },
   "l": {
     leading: [{ x: 15, y: 95 }, { x: 5, y: 5 }],
-    trailing: [{ x: 25, y: 95 }]
+    trailing: [{ x: 25, y: 95 }],
+    leadingCircle: { x: 5, y: 1 },
+    trailingCircle: { x: 38, y: 82 }
   },
   "m": {
     leading: [{ x: 5, y: 95 }],
-    trailing: [{ x: 105, y: 95 }, { x: 105, y: 45 }]
+    trailing: [{ x: 105, y: 95 }, { x: 105, y: 45 }],
+    leadingCircle: { x: 1, y: 99 },
+    trailingCircle: { x: 105, y: 99 }
   },
   "n": {
     leading: [{ x: 5, y: 95 }, { x: 5, y: 45 }],
-    trailing: [{ x: 55, y: 95 }, { x: 35, y: 45 }]
+    trailing: [{ x: 55, y: 95 }, { x: 35, y: 45 }],
+    leadingCircle: { x: 5, y: 99 },
+    trailingCircle: { x: 55, y: 99 }
   },
   "o": {
     leading: [{ x: 20, y: 95 }, { x: 20, y: 45 }],
-    trailing: [{ x: 40, y: 95 }, { x: 40, y: 45 }]
+    trailing: [{ x: 40, y: 95 }, { x: 40, y: 45 }],
+    leadingCircle: { x: 5, y: 5 },
+    trailingCircle: { x: 195, y: 5 }
   },
   "p": {
     leading: [{ x: 5, y: 95 }, { x: 5, y: 45 }],
-    trailing: [{ x: 40, y: 95 }, { x: 40, y: 45 }]
+    trailing: [{ x: 40, y: 95 }, { x: 40, y: 45 }],
+    leadingCircle: { x: 5, y: 139 },
+    trailingCircle: { x: 5, y: 42 }
   },
   "q": {
     leading: [{ x: 20, y: 95 }, { x: 20, y: 45 }],
-    trailing: [{ x: 55, y: 95 }, { x: 55, y: 45 }]
+    trailing: [{ x: 55, y: 95 }, { x: 55, y: 45 }],
+    leadingCircle: { x: 55, y: 139 },
+    trailingCircle: { x: 55, y: 42 }
   },
   "r": {
     leading: [{ x: 5, y: 95 }, { x: 5, y: 45 }],
-    trailing: [{ x: 45, y: 45 }]
+    trailing: [{ x: 45, y: 45 }],
+    leadingCircle: { x: 5, y: 99 },
+    trailingCircle: { x: 48, y: 45 }
   },
   "s": {
     leading: [{ x: 15, y: 95 }, { x: 15, y: 45 }],
-    trailing: [{ x: 55, y: 95 }, { x: 45, y: 45 }]
+    trailing: [{ x: 55, y: 95 }, { x: 45, y: 45 }],
+    leadingCircle: { x: 2, y: 82 },
+    trailingCircle: { x: 58, y: 58 }
   },
   "t": {
     leading: [{ x: 5, y: 45 }, { x: 15, y: 95 }, { x: 5, y: 5 }],
-    trailing: [{ x: 25, y: 45 }, { x: 25, y: 95 }, { x: 5, y: 5 }]
+    trailing: [{ x: 25, y: 45 }, { x: 25, y: 95 }, { x: 5, y: 5 }],
+    leadingCircle: { x: 5, y: 1 },
+    trailingCircle: { x: 38, y: 82 }
   },
   "u": {
     leading: [{ x: 5, y: 45 }, { x: 20, y: 95 }],
-    trailing: [{ x: 55, y: 45 }, { x: 55, y: 95 }]
+    trailing: [{ x: 55, y: 45 }, { x: 55, y: 95 }],
+    leadingCircle: { x: 5, y: 42 },
+    trailingCircle: { x: 55, y: 42 }
   },
   "v": {
     leading: [{ x: 5, y: 45 }, { x: 5, y: 95 }],
-    trailing: [{ x: 55, y: 45 }, { x: 5, y: 5 }]
+    trailing: [{ x: 55, y: 45 }, { x: 5, y: 5 }],
+    leadingCircle: { x: 5, y: 42 },
+    trailingCircle: { x: 58, y: 42 }
   },
   "w": {
     leading: [{ x: 5, y: 45 }, { x: 5, y: 95 }],
-    trailing: [{ x: 105, y: 45 }, { x: 55, y: 95 }]
+    trailing: [{ x: 105, y: 45 }, { x: 55, y: 95 }],
+    leadingCircle: { x: 5, y: 42 },
+    trailingCircle: { x: 108, y: 42 }
   },
   "x": {
     leading: [{ x: 5, y: 95 }, { x: 5, y: 45 }],
-    trailing: [{ x: 55, y: 45 }, { x: 55, y: 95 }]
+    trailing: [{ x: 55, y: 45 }, { x: 55, y: 95 }],
+    leadingCircle: { x: 2, y: 42 },
+    trailingCircle: { x: 58, y: 98 }
   },
   "y": {
     leading: [{ x: 5, y: 45 }, { x: 15, y: 95 }],
-    trailing: [{ x: 55, y: 45 }, { x: 45, y: 95 }]
+    trailing: [{ x: 55, y: 45 }, { x: 45, y: 95 }],
+    leadingCircle: { x: 1, y: 107 },
+    trailingCircle: { x: 55, y: 42 }
   },
   "z": {
     leading: [{ x: 5, y: 45 }, { x: 5, y: 95 }],
-    trailing: [{ x: 55, y: 95 }, { x: 55, y: 45 }]
+    trailing: [{ x: 55, y: 95 }, { x: 55, y: 45 }],
+    leadingCircle: { x: 2, y: 45 },
+    trailingCircle: { x: 58, y: 95 }
   }
 };
 function makeSvgResponsive(svgContent) {
@@ -349,6 +442,25 @@ function createLetterConnections(wordGroup, letterElements, selectedMainColor) {
       if (connectionFound) break;
     }
   }
+}
+function addCircle(wordGroup, letter, selectedMainColor, leading = true) {
+  if (letter === void 0) {
+    return;
+  }
+  const letterKey = letter.letter === letter.letter.toUpperCase() ? `capital-${letter.letter.toLowerCase()}` : letter.letter.toLowerCase();
+  const letterCoords = letterKeyCoords[letterKey];
+  const coord = leading ? letterCoords.leadingCircle : letterCoords.trailingCircle;
+  if (!coord) return;
+  const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+  const x = letter.x + coord.x;
+  const y = letter.yOffset + coord.y;
+  circle.setAttribute("cx", x.toString());
+  circle.setAttribute("cy", y.toString());
+  circle.setAttribute("r", "4.8");
+  circle.setAttribute("stroke", selectedMainColor);
+  circle.setAttribute("stroke-width", "2.4");
+  circle.setAttribute("fill", "none");
+  wordGroup.appendChild(circle);
 }
 var leftSvgContent = null;
 var rightSvgContent = null;
@@ -528,7 +640,7 @@ function processWordInput(word, elementContainer, resultDiv) {
       let currentX = 10 + leftChipOverlap;
       const wordInfos = [];
       let wordIndex = 0;
-      wordContainers.forEach((wordContainer) => {
+      wordContainers.forEach((wordContainer, wordIndex2) => {
         const wordSvgElements = wordContainer.querySelectorAll(".tile-svg-content");
         if (wordSvgElements.length === 0) return;
         const wordGroup = document.createElementNS("http://www.w3.org/2000/svg", "g");
@@ -547,7 +659,7 @@ function processWordInput(word, elementContainer, resultDiv) {
           let contentElement = originalSvg.querySelector("g");
           const elementX = wordStartX + wordCurrentX;
           const yOffset = (actualMaxHeight - height) / 2;
-          const letterChar = word.split(" ")[wordIndex][letterIndex];
+          const letterChar = word.split(" ")[wordIndex2][letterIndex];
           currentWordInfo.push({
             letter: letterChar,
             x: elementX,
@@ -575,11 +687,17 @@ function processWordInput(word, elementContainer, resultDiv) {
             wordGroup.appendChild(newGroup);
           }
           wordCurrentX += width + 10;
+          if (wordIndex2 !== 0) {
+            addCircle(wordGroup, currentWordInfo[0], selectedMainColor, true);
+          }
+          if (wordIndex2 !== wordContainers.length - 1) {
+            addCircle(wordGroup, currentWordInfo[wordSvgElements.length - 1], selectedMainColor, false);
+          }
         });
         createLetterConnections(wordGroup, currentWordInfo, selectedMainColor);
         wordInfos.push(currentWordInfo);
         currentX += wordCurrentX + SPACE_WIDTH;
-        wordIndex++;
+        wordIndex2++;
       });
       combinedSvg.appendChild(group);
       if (allSvgElements.length > 0 && leftSvgContent && rightSvgContent) {
