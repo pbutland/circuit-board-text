@@ -378,7 +378,7 @@ function processWordInput(word, elementContainer, resultDiv) {
       if (letter === " ") {
         return Promise.resolve({ element: " ", isSpace: true });
       }
-      const fetchLetter = letter === letter.toUpperCase() ? `capital-${letter}` : letter;
+      const fetchLetter = letter === letter.toUpperCase() ? `capital-${letter.toLowerCase()}` : letter;
       if (svgCache[fetchLetter]) {
         return Promise.resolve({ element: fetchLetter, svgContent: svgCache[fetchLetter] });
       }
