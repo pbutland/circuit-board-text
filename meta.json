@@ -1,0 +1,28 @@
+{
+  "inputs": {
+    "src/app.ts": {
+      "bytes": 38550,
+      "imports": [],
+      "format": "esm"
+    }
+  },
+  "outputs": {
+    "dist/app.js.map": {
+      "imports": [],
+      "exports": [],
+      "inputs": {},
+      "bytes": 62902
+    },
+    "dist/app.js": {
+      "imports": [],
+      "exports": [],
+      "entryPoint": "src/app.ts",
+      "inputs": {
+        "src/app.ts": {
+          "bytesInOutput": 29142
+        }
+      },
+      "bytes": 29188
+    }
+  }
+}

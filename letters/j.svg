@@ -1,0 +1,6 @@
+<svg width="45" height="130" viewBox="0 0 45 130" xmlns="http://www.w3.org/2000/svg">
+    <g>
+        <circle cx="35" cy="25" r="6" stroke="#0055aa" stroke-width="3" fill="none" filter="url(#glow)"/>
+        <polyline points="35, 45 35, 110 25 120 15, 120 5, 110" fill="none" stroke="#0055aa" stroke-width="5" filter="url(#glow)" />
+    </g>
+</svg>

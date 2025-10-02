@@ -1,0 +1,6 @@
+<svg width="20" height="130" viewBox="0 0 20 130" xmlns="http://www.w3.org/2000/svg">
+    <g>
+        <circle cx="10" cy="25" r="6" stroke="#0055aa" stroke-width="3" fill="none" filter="url(#glow)"/>
+        <rect x="7.5" y="45" width="5" height="50" fill="#0055aa" filter="url(#glow)"/>
+    </g>
+</svg>

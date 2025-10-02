@@ -1,0 +1,5 @@
+<svg width="60" height="130" viewBox="0 0 60 130" xmlns="http://www.w3.org/2000/svg">
+    <g transform="rotate(180, 30, 70)">
+        <polyline points="5, 80 20, 95 40, 95 55, 80 55, 60 40, 45 5, 45 5, 95 5, 5" fill="none" stroke="#0055aa" stroke-width="5" filter="url(#glow)" />
+    </g>
+</svg>
